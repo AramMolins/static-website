@@ -9,12 +9,11 @@
 
 /* AFEGITS NOUS */
 .notion-equation-block {
-  padding: 14px 0;
+  padding: 14px, 0;
 }
 
 .notion-hr {
-  margin: 1px 0;
-  padding: 1px, 0;
+  margin: 1px, 0;
 }
 
 /* VENIEN AMB EL KIT D'EN TRAVIS FISCHER */
