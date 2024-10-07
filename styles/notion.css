@@ -12,9 +12,8 @@
   padding: 14px, 0;
 }
 
-body {
-   background-image: url('/paper-background.jpg'); /* Correct path */
-   background-size: cover;
+.notion-frame {
+  background-color: rgb(247, 236, 163, 0.3)
 }
 
 /* CANVIATS */
