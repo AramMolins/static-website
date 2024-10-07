@@ -11,14 +11,14 @@ export default siteConfig({
   // basic site info (required)
   name: 'Aram Website',
   domain: 'aram-website',
-  author: 'Aram',
+  author: 'Martí Pardo',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
   twitter: '',
-  github: 'transitive-bullshit',
+  github: 'Mapaor',
   linkedin: '',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
