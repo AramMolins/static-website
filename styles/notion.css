@@ -13,11 +13,8 @@
 }
 
 .notion-frame {
-    background-image: 
-        url('/paper-background.jpg'),
-        rgba(255, 255, 255, 0.5); /* Adjust opacity here */
+    background-color: rgb(252, 235, 164, 0.3)
     background-size: cover;
-    background-blend-mode: overlay; /* Blend the image and overlay color */
 }
 
 
