@@ -12,6 +12,11 @@
   padding: 14px, 0;
 }
 
+body {
+   background-image: url('/paper-background.jpg'); /* Correct path */
+   background-size: cover;
+}
+
 /* CANVIATS */
 .notion-hr {
   margin: 1px, 0;
