@@ -13,7 +13,8 @@
 }
 
 .notion-frame {
-  background-color: rgb(247, 236, 163, 0.3)
+  background-image: url('/paper-background.jpg');
+   background-size: cover;
 }
 
 /* CANVIATS */
