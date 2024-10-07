@@ -58,6 +58,10 @@ export default siteConfig({
       pageId: '118cda9984bf80e8beeadac0f928ba3c'
     },
     {
+      title: 'Fes-te editor/a!',
+      pageId: '5a78e22c36a04e4fa359e8b1f530a28e'
+    },
+    {
       title: 'Contacte',
       pageId: '118cda9984bf80eeb5b1d94c018c5342'
     }
