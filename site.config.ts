@@ -9,9 +9,9 @@ export default siteConfig({
   rootNotionSpaceId: '758b05e94d2741e3b357a58c1bdf46a7',
 
   // basic site info (required)
-  name: 'Aram Website',
-  domain: 'aram-website',
-  author: 'Martí Pardo',
+  name: 'Física UB Website',
+  domain: 'static-website',
+  author: 'Martí',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
