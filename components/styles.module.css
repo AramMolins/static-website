@@ -62,9 +62,13 @@
   max-width: 260px;
 }
 
-.settings,
 .social {
   user-select: none;
+}
+
+.settings {
+  user-select: none;
+  margin-right: 160px;
 }
 
 .settings a,
@@ -89,7 +93,6 @@
 
 .toggleDarkMode:hover {
   color: #2795e9;
-  margin-right: 160px;
 }
 
 .twitter:hover {
