@@ -36,7 +36,7 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Hola bon dia {currentYear} </div>
+      <div className={styles.copyright}>Web estàtica creada el {currentYear} a partir de fisicaubwiki.notion.site mitjançant react-notion-x</div>
 
       <div className={styles.settings}>
         {hasMounted && (
