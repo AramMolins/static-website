@@ -36,7 +36,7 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Web estàtica generada {currentYear} a partir de <u style="color:rgba(51, 126, 169, 1)"><a href="https://fisicaubwiki.notion.site">fisicaubwiki.notion.site</a></u> mitjançant <u style="color:rgba(51, 126, 169, 1)"><a href="https://github.com/NotionX/react-notion-x">react-notion-x</a></u>.</div>
+      <div className={styles.copyright}>Web estàtica generada {currentYear} a partir de <u style="color:rgba(51, 126, 169, 1)"><a href="https://fisicaubwiki.notion.site">fisicaubwiki.notion.site</a></u> mitjançant.</div>
 
       <div className={styles.settings}>
         {hasMounted && (
