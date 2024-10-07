@@ -4,6 +4,10 @@
   }
 }
 
+.link-blau {
+  color: rgb(51, 126, 169);
+}
+
 .container {
   position: absolute;
   top: 0;
