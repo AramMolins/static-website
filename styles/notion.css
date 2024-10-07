@@ -13,31 +13,11 @@
 }
 
 .notion-frame {
-    position: relative; /* Necessary for positioning the overlay */
-    margin: 0; /* Optional: reset margin if needed */
-}
-
-.notion-frame::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('/paper-background.jpg'); /* Background image */
+    background-image: 
+        url('/paper-background.jpg'),
+        rgba(255, 255, 255, 0.5); /* Adjust opacity here */
     background-size: cover;
-    z-index: -1; /* Places background behind content */
-}
-
-.notion-frame::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(255, 255, 255, 0.5); /* Overlay with transparency */
-    z-index: 0; /* Place above the image */
+    background-blend-mode: overlay; /* Blend the image and overlay color */
 }
 
 
