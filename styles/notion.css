@@ -13,8 +13,9 @@
 }
 
 .notion-frame {
-  background-image: url('/paper-background.jpg');
-   background-size: cover;
+  background-image: url('/paper-background.jpg'), rgba(255, 255, 255, 0.3);
+  background-size: cover;
+  background-blend-mode: overlay;
 }
 
 /* CANVIATS */
