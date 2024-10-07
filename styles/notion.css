@@ -13,10 +13,33 @@
 }
 
 .notion-frame {
-  background-image: url('/paper-background.jpg'), rgba(255, 255, 255, 0.3);
-  background-size: cover;
-  background-blend-mode: overlay;
+    position: relative; /* Necessary for positioning the overlay */
+    margin: 0; /* Optional: reset margin if needed */
 }
+
+.notion-frame::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/paper-background.jpg'); /* Background image */
+    background-size: cover;
+    z-index: -1; /* Places background behind content */
+}
+
+.notion-frame::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5); /* Overlay with transparency */
+    z-index: 0; /* Place above the image */
+}
+
 
 /* CANVIATS */
 .notion-hr {
