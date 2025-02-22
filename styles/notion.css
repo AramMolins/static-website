@@ -13,7 +13,7 @@
 }
 
 .notion-frame {
-    background-color: rgb(252, 235, 164, 0.3);
+    background-color: rgb(245, 245, 230, 0.4); /* CANVIAR AIXÒ SI ES VOL MODIFICAR EL COLOR DE FONS */
     background-size: cover;
 }
 
@@ -274,11 +274,13 @@
   border-radius: 0.5rem;
   border-bottom-left-radius: 0.125rem;
   box-decoration-break: clone;
-
-  /* CANVIAR AIXÒ PER SI ES VOL MODIFICAR EL FONS*/
-  /* Pot ser un color, un gradient lineal o fins i tot una imatge amb equacions de fons */
+  background-color: none;
+  
+  /* CANVIAR AIXÒ PER SI ES VOL MODIFICAR EL FONS COM UNA IMATGE*/
+  /* De fet no, crec que es fa a site.config.ts */
+  /* Més endalt hi ha el color del fons per modificar amb el seu comentari en majúsucles també */
   background-image: none;
-  background-color: #f7f7f5;
+  ;
 }
 
 .notion-purple_background,
