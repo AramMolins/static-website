@@ -12,10 +12,13 @@
   padding: 14px, 0;
 }
 
+/* ES POT CANVIAR AIXÒ SI ES VOL MODIFICAR EL COLOR DE FONS 
 .notion-frame {
-    background-color: rgb(245, 245, 230, 0.4); /* CANVIAR AIXÒ SI ES VOL MODIFICAR EL COLOR DE FONS */
+    background-color: rgb(245, 245, 230, 0.4); 
     background-size: cover;
-}
+} 
+  /* però malauradament el dark-mode no queda ben configurat. */
+*/
 
 
 /* CANVIATS */
