@@ -2,11 +2,11 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '8bd15a8ab05741838e4f142ce7f9292e',
+  rootNotionPageId: '7cb6d7131580452388217edcf8f621c3',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: '758b05e94d2741e3b357a58c1bdf46a7',
+  // rootNotionSpaceId: '7cb6d7131580452388217edcf8f621c3',
 
   // basic site info (required)
   name: 'Física UB Website',
